@@ -1,1 +1,6 @@
 language: go
+
+install:
+  - go get github.com/likexian/host-stat-go
+  - go get github.com/likexian/simplejson-go
+  - go get github.com/likexian/daemon-go
